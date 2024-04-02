@@ -1,12 +1,13 @@
 ---
-title: "Job market paper"
+title: "Local content in oil and gas auctions in Brazil"
 authors:
-- admin
-date: "2020-04-07T00:00:00Z"
+- Davi Doneda Mittelstadt (UW-Madison)
+- Leonardo Rezende (PUC-Rio)
+date: "2023-01-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2018-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -18,10 +19,10 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Scoring auctions featuring an upfront payment and other dimensions relevant to the seller are common in many settings. Most of the theoretical and empirical literature focuses on the private values framework, applying it especially to procurement auctions in which a measure of quality also determines the winner. We contribute to this literature by estimating scoring auctions under the common value assumption. We analyze Brazilian oil and gas auctions, in which local content features as a bid dimension, and evaluate its impact on government revenue. Change in the auction rules over time provides variation in bidder behavior, as in sales with increased local content requirements, there was a decrease and both revenue and participation. We develop and estimate a structural auction model within the mineral rights framework that includes an entry decision and bids in multiple dimensions, including a bonus and a local content percentage. Our results show that local content requirements increase costs in deep water areas by 14%. Simulating a counterfactual in which bidders are unconstrained in their procurement decisions, we conclude that these requirements reduced auction revenue in deep-water leases by 65%.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: New version coming soon.
 
 tags:
 - Source Themes
@@ -29,7 +30,7 @@ featured: false
 
 links:
 
-url_pdf: files/job-market-paper.pdf
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -60,9 +61,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
-
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).

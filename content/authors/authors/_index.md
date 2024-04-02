@@ -1,41 +1,42 @@
 ---
 # Display name
-title: Job Candidate
+title: Davi Doneda Mittelstadt
 
 # Username (this should match the folder name)
 authors:
-- admin
+- authors
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: PhD candidate in Economics
+role: PhD student in Economics
 
 # Organizations/Affiliations
 organizations:
-- name: Big Ten University
+- name: University of Wisconsin-Madison
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Job candidate is a doctoral candidate in economics at Big Ten University. Job candidate has research interests in health and environmental economics. 
+# bio: Job candidate is a doctoral candidate in economics at Big Ten University. Job candidate has research interests in health and environmental economics. 
 
 interests:
-- Health economics
-- Environmental economics
+- Industrial Organization
+- Banking
+- Payments
+- Auctions
  
-
 education:
   courses:
   - course: PhD in Economics
-    institution: Big Ten University
-    year: 2021 (Expected)
+    institution: University of Wisconsin-Madison
+    year: 2027 (Expected)
   - course: MS in Economics
-    institution:  Big Ten University
-    year: 2017  
+    institution:  Pontifícia Universidade Católica do Rio de Janeiro - PUC-Rio (Brazil)
+    year: 2019  
   - course: BA in Economics
-    institution: Liberal Arts College
-    year: 2016
+    institution: Universidade Federal do Rio Grande do Sul - UFRGS (Brazil)
+    year: 2012
 
 
 # Social/Academic Networking
@@ -45,16 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/twitter_handle
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=GOOGLE-SCHOLAR-ID
-- icon: github
-  icon_pack: fab
-  link: https://github.com/GITHUB-USERNAME
+  link: 'mailto:donedamittel@wisc.edu'  # For a direct email link, use "mailto:test@example.org".
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -71,5 +63,3 @@ user_groups:
 - Researchers
 - Visitors
 ---
-
-Job candidate is a doctoral candidate in economics at Big Ten University. Job candidate has research interests in health and environmental economics and will be available for interviews for the 2020-2021 job market. 
