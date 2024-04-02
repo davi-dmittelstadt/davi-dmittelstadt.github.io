@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Davi Doneda Mittelstadt</title>
-    <link>//localhost:4321/author/davi-doneda-mittelstadt/</link>
-      <atom:link href="//localhost:4321/author/davi-doneda-mittelstadt/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/davi-doneda-mittelstadt/</link>
+      <atom:link href="/author/davi-doneda-mittelstadt/index.xml" rel="self" type="application/rss+xml" />
     <description>Davi Doneda Mittelstadt</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>//localhost:4321/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Davi Doneda Mittelstadt</title>
-      <link>//localhost:4321/author/davi-doneda-mittelstadt/</link>
+      <link>/author/davi-doneda-mittelstadt/</link>
     </image>
     
     <item>
       <title>Davi Doneda Mittelstadt</title>
-      <link>//localhost:4321/author/davi-doneda-mittelstadt/</link>
+      <link>/author/davi-doneda-mittelstadt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/author/davi-doneda-mittelstadt/</guid>
+      <guid>/author/davi-doneda-mittelstadt/</guid>
       <description></description>
     </item>
     
