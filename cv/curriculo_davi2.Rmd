@@ -1,0 +1,92 @@
+---
+name: Davi Doneda Mittelstadt
+# address: 923 Eagle Heights Apt F - 53705 - Madison/WI - United States of America
+date: "`r Sys.setlocale('LC_TIME', 'English'); format(Sys.time(), '%B, %Y')`"
+email: donedamittel@wisc.edu
+# phone: "+1 608 982 4302"
+headcolor: "414141"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
+
+Sys.setlocale("LC_TIME", "English")
+```
+
+# Education
+```{r education}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ thesis,
+    "PhD in Economics", "University of Wisconsin-Madison", "Madison/WI, United States", "Aug. 2021 - 2027 (expected)", "Major: Industrial Organization. Committee: Jean-François Houde, Kenneth Hendricks, Karam Kang",
+    "MsC Economics", "Pontifical Catholic University - Rio de Janeiro (PUC-Rio)", "Rio de Janeiro, Brazil", "Jan. 2017 - Aug. 2019", "Thesis: Local Content in Brazilian Oil and Gas Auctions (Advisor: Prof. Leonardo Rezende)", 
+  # "MsC Economics", "Pontifical Catholic University - Rio de Janeiro (PUC-Rio)", "Rio de Janeiro, Brazil", "Jan. 2017 - Aug. 2019", "The thesis explored the case of Brazilian oil and gas auctions to assess the impact of local content requirements in bidding behavior, allowing for the estimation of its impact on government revenue.",
+  "BA in Economics", "Federal University of Rio Grande do Sul (UFRGS)", "Porto Alegre, Brazil", "Mar. 2011 - Dec. 2012", NA, #"GPA: 9.4/10",
+  "BA in International Relations", "Federal University of Rio Grande do Sul (UFRGS)", "Porto Alegre, Brazil", "Mar. 2007 - Dec. 2010", NA,  #"GPA: 9.5/10",
+) %>% 
+  detailed_entries(degree, dates, uni, loc, thesis)
+```
+
+# Work Experience
+
+```{r consulting}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Research Assistant", "UW-Madison", NA, "Fall 2023 - Fall 2025", "Supervisors: Prof. Jean-François Houde and Prof. Kenneth Hendricks",  
+  "Analyst", "Stone Payments", "Rio de Janeiro, Brazil", "Aug. 2019 - Aug. 2021", "Manager: Prof. Vinicius Carrasco (Chief Economist & Regulatory Affairs Executive Officer, Assistant Professor PUC-Rio)",
+  # "Analyst", "Stone Payments", "Rio de Janeiro, Brazil", "Aug. 2019 - Aug. 2021", "Main activities: supporting the company positions regarding regulatory and antitrust issues, using both economic theory and quantitative analysis. Helping business units to evaluate the impact of new products and practices on business metrics using causal inference methods.",
+    "Research Assistant", "PUC-Rio", "Rio de Janeiro, Brazil", "Feb. 2019 - Jul. 2019", "Supervisor: Prof. Fabio Miessi",
+  # "Research Assistant", "PUC-Rio", "Rio de Janeiro, Brazil", "Feb. 2019 - Jul. 2019", "Main activities: web scraping, cleaning and updating databases.",
+    "Research Assistant", "PUC-Rio", "Rio de Janeiro, Brazil", "Jan. 2018 - Dec. 2018", "Supervisor: Prof. Leonardo Rezende",
+  # "Research Assistant", "PUC-Rio", "Rio de Janeiro, Brazil", "Jan. 2018 - Dec. 2018", "Main activities: evaluation of a Brazilian Central Bank policy regarding credit cards, web scraping and data cleaning.",
+  "Intern (Oct/2011 - Jan/2013), Analyst (tenured) (Feb/2013 - Dec/2016)", "Rio Grande do Sul Development Agency", "Porto Alegre, Brazil", "Oct. 2011 - Dec. 2016", NA
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+# Teaching Experience
+
+```{r teaching}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Teaching Assistant", "UW-Madison", NA, "Summer 2023", "Course: Econ 521 Game Theory (undergraduate)",
+  "Teaching Assistant", "UW-Madison", NA, "Summer 2023", "Professor: David Hansen",
+  "Teaching Assistant", "UW-Madison", NA, "Spring 2023", "Course: Econ 301 Intermediary Microeconomics (undergraduate) - Avg. 4.75/5.0",
+  "Teaching Assistant", "UW-Madison", NA, "Spring 2023", "Professor: Rasmus Lentz",
+  "Teaching Assistant", "UW-Madison", NA, "Fall 2022", "Course: Econ 521 Game Theory (undergraduate) - Avg. 4.71/5.0",
+  "Teaching Assistant", "UW-Madison", NA, "Fall 2022", "Professor: Benjamin Bernard",
+  "Teaching Assistant", "PUC-Rio", "Rio de Janeiro, Brazil", "Mar. 2018 - Jul. 2018", "Course: Microeconomics (Professional Masters)",
+  "Teaching Assistant", "PUC-Rio", "Rio de Janeiro, Brazil", "Mar. 2018 - Jul. 2018", "Course coordinator: Prof. Fabio Miessi",
+  "Teaching Assistant", "UFRGS", "Porto Alegre, Brazil", "Mar. 2011 - Oct. 2011", "Course: Calculus I (undergraduate)",
+  "Teaching Assistant", "UFRGS", "Porto Alegre, Brazil", "Mar. 2011 - Oct. 2011", "Course coordinators: Prof. Elizabeta Gallicchio and Prof. Jaime Ripoll (Department of Mathematics)",
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+# Research
+## Working papers
+* Local Content in Brazilian Oil and Gas Auctions (with Leonardo Rezende)
+Conferences: Brazilian Econometric Society 2023, Midwest Economics Association 2024, IIOC 2024
+
+## Work in progress
+* Asymmetric Information and Search Frictions in Auto Loans (with Bernardus van Doornik)
+Conferences: CEA 2026 (scheduled), North American Summer Meeting of the Econometric Society 2026 (scheduled), Brazilian Finance Meeting 2026 (scheduled), EARIE 2026 (scheduled)
+
+# Honors and Awards
+* Mary Sue and Mike Shannon Dissertation Fellowship, University of Wisconsin-Madison, Fall 2026
+* Christensen Graduate Fellowship in Empirical Economics, University of Wisconsin-Madison, Spring 2026
+* Summer Fellowship, University of Wisconsin-Madison, Summer 2025
+* Distinguised Teaching Assistant, Department of Economics, University of Wisconsin-Madison, Spring 2023
+
+# Other information
+
+## Computer Skills
+* R, Julia, Git, LaTeX, SQL
+
+## Languages
+* Portuguese (native), English (fluent), Spanish (advanced), French (intermediate)
+
+## Interests
+* Industrial Organization, Banking, Household Finance, Auctions
