@@ -67,18 +67,49 @@ tribble(
 
 # Research
 ## Working papers
-* Local Content in Brazilian Oil and Gas Auctions (with Leonardo Rezende)
-Conferences: Brazilian Econometric Society 2023, Midwest Economics Association 2024, IIOC 2024
+```{r working-papers}
+tribble(
+  ~ title, ~ coauthors, ~ conferences,
+  "Local Content in Brazilian Oil and Gas Auctions", "with Leonardo Rezende", "Conferences: Brazilian Econometric Society 2023, Midwest Economics Association 2024, IIOC 2024"
+) %>% 
+  detailed_entries(
+    with = title,
+    what = coauthors,
+    why = conferences
+  )
+```
 
 ## Work in progress
-* Asymmetric Information and Search Frictions in Auto Loans (with Bernardus van Doornik)
-Conferences: CEA 2026 (scheduled), North American Summer Meeting of the Econometric Society 2026 (scheduled), Brazilian Finance Meeting 2026 (scheduled), EARIE 2026 (scheduled)
+
+```{r work-in-progress}
+tribble(
+  ~ title, ~ coauthors, ~ conferences,
+  "Asymmetric Information and Search Frictions in Auto Loans", "with Bernardus van Doornik", "Conferences: CEA 2026 (scheduled), North American Summer Meeting of the Econometric Society 2026 (scheduled), Brazilian Finance Meeting 2026 (scheduled), EARIE 2026 (scheduled)"
+) %>% 
+  detailed_entries(
+    with = title,
+    what = coauthors,
+    why = conferences
+  )
+```
 
 # Honors and Awards
-* Mary Sue and Mike Shannon Dissertation Fellowship, University of Wisconsin-Madison, Fall 2026
-* Christensen Graduate Fellowship in Empirical Economics, University of Wisconsin-Madison, Spring 2026
-* Summer Fellowship, University of Wisconsin-Madison, Summer 2025
-* Distinguised Teaching Assistant, Department of Economics, University of Wisconsin-Madison, Spring 2023
+
+```{r awards}
+tribble(
+  ~ award, ~ institution, ~ date,
+  "Mary Sue and Mike Shannon Dissertation Fellowship", "University of Wisconsin-Madison", "Fall 2026",
+  "Christensen Graduate Fellowship in Empirical Economics", "University of Wisconsin-Madison", "Spring 2026",
+  "Summer Fellowship", "University of Wisconsin-Madison", "Summer 2025",
+  "Distinguished Teaching Assistant", "Department of Economics, University of Wisconsin-Madison", "Spring 2023"
+) %>% 
+  detailed_entries(
+    with = award,
+    what = institution,
+    when = date
+  )
+```
+
 
 # Other information
 
