@@ -64,7 +64,7 @@ jobs:
       - name: Move CV to static folder
         run: |
           mkdir -p static
-          mv cv/cv.pdf static/mittelstadt_cv.pdf
+          mv cv/cv.pdf static/files/mittelstadt_cv.pdf
       # ---------------------------------------------------------
       - name: Build with Hugo
         env:
