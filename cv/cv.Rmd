@@ -113,11 +113,24 @@ tribble(
 
 # Other information
 
-## Computer Skills
+<!-- ## Computer Skills
 * R, Julia, Git, LaTeX, SQL
 
 ## Languages
 * Portuguese (native), English (fluent), Spanish (advanced), French (intermediate)
 
 ## Interests
-* Industrial Organization, Banking, Household Finance, Auctions
+* Industrial Organization, Banking, Household Finance, Auctions -->
+
+```{r skills}
+tribble(
+  ~ category, ~ items,
+  "Computer Skills", "R, Julia, Git, LaTeX, SQL",
+  "Languages", "Portuguese (native), English (fluent), Spanish (advanced), French (intermediate)",
+  "Interests", "Industrial Organization, Banking, Household Finance, Auctions"
+) %>% 
+  detailed_entries(
+    with = category,
+    what = items
+  )
+```
