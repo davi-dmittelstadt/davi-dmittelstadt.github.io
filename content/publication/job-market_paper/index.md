@@ -20,13 +20,13 @@ publication: ""
 publication_short: ""
 
 abstract: | 
-  This paper studies the joint impact of asymmetric information and search frictions in the market for auto loans. Using administrative data from the Central Bank of Brazil, we observe the universe of loan contracts and, crucially, the specific set of lenders contacted by each borrower. We document two key empirical findings. First, we find evidence of adverse selection on the intensive margin: after controlling for observables using random forests, we estimate a positive correlation between loan size and default risk, which is consistent with unobservably riskier individuals self-selecting into larger loans. Second, we show that search frictions are a significant source of market power. Using the distance to bank branches as an instrument for search intensity, we find that borrowers who search more obtain significantly lower interest rates. To quantify the welfare implications of these frictions, we develop a structural model endogenizing borrowers’ search and loan size choices. On the supply side, we allow lenders to offer non-linear pricing menus. In next steps, we use this framework to evaluate the welfare effects of the introduction of credit scores in Brazil, specifically analyzing how search frictions can limit the consumer gains.
+  We estimate a structural model of endogenous search and loan size choice to quantify how asymmetric information and search frictions jointly distort the auto loan market. Using administrative data from the Central Bank of Brazil, we observe the universe of loan contracts and, crucially, the specific set of lenders contacted by each borrower. Empirically, we find evidence of adverse selection on the intensive margin: borrowers who demand more credit are significantly riskier. Using instrumental variables, we show that this correlation is not driven by moral hazard, but by adverse selection. Furthermore, borrowers who search more are riskier and face higher interest rates, indicating that riskier borrowers have more incentives to search. On the demand side of our model, borrowers choose loan size and search intensity, with private information over their search costs and willingness to pay. Car dealers can supply quotes at no search cost to the borrower, which shapes how much they search on their own. Riskier borrowers select into search because their higher reservation rates expose them more to rate dispersion. On the supply side, we allow asymmetric lenders to compete over rates with non-linear menus depending on the loan size. Our estimates show that allowing lenders to perfectly observe consumers’ private information would increase originations and borrowing. Larger loans make search more attractive, reducing average rates in equilibrium, given that search costs are high. Borrowers also derive significant surplus from the intermediation provided by car dealers, as most of the spread over a frictionless benchmark is the cost of a thin consideration set.
 
 # Summary. An optional shortened abstract.
-summary: |
-  Scheduled conferences: Canadian Economic Association (CEA), North American Meeting of the Econometric Society (NASMES), Brazilian Finance Meeting (EBFin), European Association for Research in Industrial Economics (EARIE)
+# Left empty so the Job Market Paper section on the homepage shows the full abstract.
+summary: ""
 
-featured: false
+featured: true
 
 links:
 
@@ -61,3 +61,5 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
+
+**Conferences:** Canadian Economic Association (CEA), North American Summer Meeting of the Econometric Society (NASMES), European Association for Research in Industrial Economics (EARIE)

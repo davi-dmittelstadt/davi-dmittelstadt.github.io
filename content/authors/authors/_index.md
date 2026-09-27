@@ -20,12 +20,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio: Job candidate is a doctoral candidate in economics at Big Ten University. Job candidate has research interests in health and environmental economics. 
 
-interests:
-- Industrial Organization
-- Banking
-- Payments
-- Auctions
- 
 education:
   courses:
   - course: PhD in Economics
@@ -66,3 +60,9 @@ user_groups:
 - Researchers
 - Visitors
 ---
+
+I am a PhD candidate in Economics at the University of Wisconsin-Madison. My research interests include industrial organization, applied microeconomics, and household finance.
+
+I will be on the 2026-2027 job market. You can find my CV [here](/files/mittelstadt_cv.pdf).
+
+Feel free to contact me at [donedamittel@wisc.edu](mailto:donedamittel@wisc.edu).

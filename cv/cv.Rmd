@@ -2,8 +2,9 @@
 name: Davi Doneda Mittelstadt
 # address: 923 Eagle Heights Apt F - 53705 - Madison/WI - United States of America
 date: "`r Sys.setlocale('LC_TIME', 'English'); format(Sys.time(), '%B, %Y')`"
+address: "Department of Economics, University of Wisconsin-Madison, 1180 Observatory Drive, Rm 7226, Madison, WI 53706"
 email: donedamittel@wisc.edu
-# phone: "+1 608 982 4302"
+www: www.davimittelstadt.com
 headcolor: "414141"
 output: vitae::awesomecv
 ---
@@ -29,6 +30,49 @@ tribble(
   detailed_entries(degree, dates, uni, loc, thesis)
 ```
 
+# Job Market Paper
+```{r job-market-paper}
+tribble(
+  ~ title, ~ coauthors, ~ conferences,
+  "Asymmetric Information and Search Frictions in Auto Loans", "with Bernardus van Doornik (Central Bank of Brazil)", "Conferences: CEA 2026, North American Summer Meeting of the Econometric Society 2026, EARIE 2026"
+) %>%
+  detailed_entries(
+    with = title,
+    what = coauthors,
+    why = conferences
+  )
+```
+
+\begingroup\paragraphstyle
+
+**Abstract:** We estimate a structural model of endogenous search and loan size choice to quantify how asymmetric information and search frictions jointly distort the auto loan market. Using administrative data from the Central Bank of Brazil, we observe the universe of loan contracts and, crucially, the specific set of lenders contacted by each borrower. Empirically, we find evidence of adverse selection on the intensive margin: borrowers who demand more credit are significantly riskier. Using instrumental variables, we show that this correlation is not driven by moral hazard, but by adverse selection. Furthermore, borrowers who search more are riskier and face higher interest rates, indicating that riskier borrowers have more incentives to search. On the demand side of our model, borrowers choose loan size and search intensity, with private information over their search costs and willingness to pay. Car dealers can supply quotes at no search cost to the borrower, which shapes how much they search on their own. Riskier borrowers select into search because their higher reservation rates expose them more to rate dispersion. On the supply side, we allow asymmetric lenders to compete over rates with non-linear menus depending on the loan size. Our estimates show that allowing lenders to perfectly observe consumers' private information would increase originations and borrowing. Larger loans make search more attractive, reducing average rates in equilibrium, given that search costs are high. Borrowers also derive significant surplus from the intermediation provided by car dealers, as most of the spread over a frictionless benchmark is the cost of a thin consideration set.
+
+\par\endgroup
+
+# References
+
+```{=latex}
+\vspace{2mm}
+\noindent%
+\begin{tabular}{@{}p{0.31\linewidth}p{0.31\linewidth}p{0.31\linewidth}@{}}
+\entrytitlestyle{Jean-François Houde} & \entrytitlestyle{Kenneth Hendricks} & \entrytitlestyle{Karam Kang} \\
+\descriptionstyle{Department of Economics\newline University of Wisconsin-Madison\newline \href{mailto:houde@wisc.edu}{houde@wisc.edu}} &
+\descriptionstyle{Department of Economics\newline University of Wisconsin-Madison\newline \href{mailto:hendrick@ssc.wisc.edu}{hendrick@ssc.wisc.edu}} &
+\descriptionstyle{Department of Economics\newline University of Wisconsin-Madison\newline \href{mailto:kkang57@wisc.edu}{kkang57@wisc.edu}} \\
+\end{tabular}
+```
+
+# Research Fields
+
+\begingroup\paragraphstyle
+
+Industrial Organization, Banking, Household Finance, Auctions
+
+\par\endgroup
+
+
+\newpage
+
 # Work Experience
 
 ```{r consulting}
@@ -51,9 +95,11 @@ tribble(
 ```{r teaching}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Teaching Assistant", "UW-Madison", NA, "Fall 2026", "Course: Econ 468 Industrial Organization and Imperfect Competition (undergraduate)",
+  "Teaching Assistant", "UW-Madison", NA, "Fall 2026", "Professor: Panle Barwick",
   "Teaching Assistant", "UW-Madison", NA, "Summer 2023", "Course: Econ 521 Game Theory (undergraduate)",
   "Teaching Assistant", "UW-Madison", NA, "Summer 2023", "Professor: David Hansen",
-  "Teaching Assistant", "UW-Madison", NA, "Spring 2023", "Course: Econ 301 Intermediary Microeconomics (undergraduate) - Avg. 4.75/5.0",
+  "Teaching Assistant", "UW-Madison", NA, "Spring 2023", "Course: Econ 301 Intermediate Microeconomics (undergraduate) - Avg. 4.75/5.0",
   "Teaching Assistant", "UW-Madison", NA, "Spring 2023", "Professor: Rasmus Lentz",
   "Teaching Assistant", "UW-Madison", NA, "Fall 2022", "Course: Econ 521 Game Theory (undergraduate) - Avg. 4.71/5.0",
   "Teaching Assistant", "UW-Madison", NA, "Fall 2022", "Professor: Benjamin Bernard",
@@ -70,21 +116,7 @@ tribble(
 ```{r working-papers}
 tribble(
   ~ title, ~ coauthors, ~ conferences,
-  "Local Content in Brazilian Oil and Gas Auctions", "with Leonardo Rezende", "Conferences: Brazilian Econometric Society 2023, Midwest Economics Association 2024, IIOC 2024"
-) %>% 
-  detailed_entries(
-    with = title,
-    what = coauthors,
-    why = conferences
-  )
-```
-
-## Work in progress
-
-```{r work-in-progress}
-tribble(
-  ~ title, ~ coauthors, ~ conferences,
-  "Asymmetric Information and Search Frictions in Auto Loans", "with Bernardus van Doornik", "Conferences: CEA 2026 (scheduled), North American Summer Meeting of the Econometric Society 2026 (scheduled), Brazilian Finance Meeting 2026 (scheduled), EARIE 2026 (scheduled)"
+  "Local Content in Brazilian Oil and Gas Auctions", "with Leonardo Rezende (PUC-Rio)", "Conferences: Brazilian Econometric Society 2023, Midwest Economics Association 2024, IIOC 2024"
 ) %>% 
   detailed_entries(
     with = title,
@@ -98,7 +130,7 @@ tribble(
 ```{r awards}
 tribble(
   ~ award, ~ institution, ~ date,
-  "Mary Sue and Mike Shannon Dissertation Fellowship", "University of Wisconsin-Madison", "Fall 2026",
+  "Mary Sue and Mike Shannon Dissertation Fellowship", "University of Wisconsin-Madison", "Spring 2027",
   "Christensen Graduate Fellowship in Empirical Economics", "University of Wisconsin-Madison", "Spring 2026",
   "Summer Fellowship", "University of Wisconsin-Madison", "Summer 2025",
   "Distinguished Teaching Assistant", "Department of Economics, University of Wisconsin-Madison", "Spring 2023"
@@ -117,8 +149,7 @@ tribble(
 tribble(
   ~ category, ~ items,
   "Computer Skills", "R, Julia, Git, LaTeX, SQL",
-  "Languages", "Portuguese (native), English (fluent), Spanish (advanced), French (intermediate)",
-  "Interests", "Industrial Organization, Banking, Household Finance, Auctions"
+  "Languages", "Portuguese (native), English (fluent), Spanish (advanced), French (intermediate)"
 ) %>% 
   detailed_entries(
     with = category,

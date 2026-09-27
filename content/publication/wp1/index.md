@@ -1,5 +1,5 @@
 ---
-title: "Local content in oil and gas auctions in Brazil"
+title: "Local Content in Brazilian Oil and Gas Auctions"
 authors:
 - Davi Doneda Mittelstadt (University of Wisconsin-Madison)
 - Leonardo Rezende (PUC-Rio)
