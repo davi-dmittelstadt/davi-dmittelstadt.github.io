@@ -25,6 +25,9 @@ education:
   - course: PhD in Economics
     institution: University of Wisconsin-Madison
     year: 2027 (Expected)
+  - course: MS in Economics (en route)
+    institution: University of Wisconsin-Madison
+    year: 2024
   - course: MS in Economics
     institution:  Pontifícia Universidade Católica do Rio de Janeiro - PUC-Rio (Brazil)
     year: 2019  
