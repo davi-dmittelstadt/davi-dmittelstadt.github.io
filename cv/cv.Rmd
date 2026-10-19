@@ -159,12 +159,12 @@ tribble(
 # Rows with the same org are merged into one entry (see grouped_entries)
 tribble(
   ~ role, ~ org, ~ loc, ~ dates, ~ details,
-  "Teaching Assistant", "UW-Madison", "Madison, WI", "Fall 2026", "Econ 468 Industrial Organization and Imperfect Competition (undergraduate) - Prof. Panle Barwick",
-  "Teaching Assistant", "UW-Madison", "Madison, WI", "Summer 2023", "Econ 521 Game Theory (undergraduate) - Prof. David Hansen",
-  "Teaching Assistant", "UW-Madison", "Madison, WI", "Spring 2023", "Econ 301 Intermediate Microeconomics (undergraduate) - Prof. Rasmus Lentz - Teaching evaluation: 4.75/5.0",
-  "Teaching Assistant", "UW-Madison", "Madison, WI", "Fall 2022", "Econ 521 Game Theory (undergraduate) - Prof. Benjamin Bernard - Teaching evaluation: 4.71/5.0",
-  "Teaching Assistant", "PUC-Rio", "Rio de Janeiro, Brazil", "Mar. 2018 -- Jul. 2018", "Microeconomics (Professional Masters) - Prof. Fabio Miessi",
-  "Teaching Assistant", "UFRGS", "Porto Alegre, Brazil", "Mar. 2011 -- Oct. 2011", "Calculus I (undergraduate, Department of Mathematics) - Prof. Elizabeta Gallicchio and Prof. Jaime Ripoll"
+  "Teaching Assistant", "UW-Madison", "Madison, WI", "Fall 2026", "Econ 468 Industrial Organization and Imperfect Competition (undergraduate) -- Prof. Panle Barwick",
+  "Teaching Assistant", "UW-Madison", "Madison, WI", "Summer 2023", "Econ 521 Game Theory (undergraduate) -- Prof. David Hansen",
+  "Teaching Assistant", "UW-Madison", "Madison, WI", "Spring 2023", "Econ 301 Intermediate Microeconomics (undergraduate) -- Prof. Rasmus Lentz -- Teaching evaluation: 4.75/5.0",
+  "Teaching Assistant", "UW-Madison", "Madison, WI", "Fall 2022", "Econ 521 Game Theory (undergraduate) -- Prof. Benjamin Bernard -- Teaching evaluation: 4.71/5.0",
+  "Teaching Assistant", "PUC-Rio", "Rio de Janeiro, Brazil", "Mar. 2018 -- Jul. 2018", "Microeconomics (Professional Masters) -- Prof. Fabio Miessi",
+  "Teaching Assistant", "UFRGS", "Porto Alegre, Brazil", "Mar. 2011 -- Oct. 2011", "Calculus I (undergraduate, Department of Mathematics) -- Prof. Elizabeta Gallicchio and Prof. Jaime Ripoll"
 ) %>%
   grouped_entries()
 ```
