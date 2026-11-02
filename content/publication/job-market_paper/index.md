@@ -26,6 +26,9 @@ abstract: |
 # Left empty so the Job Market Paper section on the homepage shows the full abstract.
 summary: ""
 
+# Shown below the abstract on the homepage (see layouts/partials/li_card.html).
+note: "*Draft available [upon request](mailto:donedamittel@wisc.edu). Public version expected by mid-November 2026, pending clearance by the Central Bank of Brazil.*"
+
 featured: true
 
 links:
@@ -61,5 +64,7 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
+
+*Draft available [upon request](mailto:donedamittel@wisc.edu). Public version expected by mid-November 2026, pending clearance by the Central Bank of Brazil.*
 
 **Conferences:** Canadian Economic Association (CEA), North American Summer Meeting of the Econometric Society (NASMES), European Association for Research in Industrial Economics (EARIE)

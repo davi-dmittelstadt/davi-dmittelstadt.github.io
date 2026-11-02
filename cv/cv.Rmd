@@ -100,14 +100,11 @@ tribble(
 # Job Market Paper
 ```{r job-market-paper}
 tribble(
-  ~ title, ~ coauthors, ~ conferences,
-  "Asymmetric Information and Search Frictions in Auto Loans", "with Bernardus van Doornik (Central Bank of Brazil)", "Conferences: CEA 2026, NASMES 2026, EARIE 2026"
+  ~ role, ~ org, ~ loc, ~ dates, ~ details,
+  "with Bernardus van Doornik (Central Bank of Brazil)", "Asymmetric Information and Search Frictions in Auto Loans",
+  "\\href{https://davimittelstadt.com/jmp/}{davimittelstadt.com/jmp}", "", "Conferences: CEA 2026, NASMES 2026, EARIE 2026"
 ) %>%
-  detailed_entries(
-    with = title,
-    what = coauthors,
-    why = conferences
-  )
+  grouped_entries()
 ```
 
 # References
@@ -179,6 +176,18 @@ tribble(
     with = title,
     what = coauthors,
     why = conferences
+  )
+```
+
+# Work in Progress
+```{r work-in-progress}
+tribble(
+  ~ title, ~ coauthors,
+  "(Mis)pricing of Prepayment Risk in the Wholesale Market for Mortgages", "with Kenneth Hendricks, John Higgins, and Jean-François Houde (UW-Madison)"
+) %>%
+  detailed_entries(
+    with = title,
+    what = coauthors
   )
 ```
 
