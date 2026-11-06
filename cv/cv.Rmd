@@ -184,7 +184,7 @@ tribble(
 tribble(
   ~ title, ~ coauthors,
   "(Mis)pricing of Prepayment Risk in the Wholesale Market for Mortgages", "with Kenneth Hendricks, John Higgins, and Jean-François Houde (UW-Madison)",
-  "The Welfare Impact of the Brazilian Implantable Cardiac Device Cartel", "with Daniel Chaves (University of Western Ontario) and Dimas Fazio (National University of Singapore)"
+  "The Welfare Impact of the Brazilian Implantable Cardiac Device Cartel", "with Daniel Chaves (Western University) and Dimas Fazio (National University of Singapore)"
 ) %>%
   detailed_entries(
     with = title,

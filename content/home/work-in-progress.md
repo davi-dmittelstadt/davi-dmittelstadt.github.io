@@ -18,4 +18,4 @@ subtitle = ""
 with [Kenneth Hendricks](https://users.ssc.wisc.edu/~khendricks2/), [John Higgins](https://johnfrancishiggins.com/), and [Jean-François Houde](https://jfhoude.econ.wisc.edu/) (UW-Madison)
 
 **The Welfare Impact of the Brazilian Implantable Cardiac Device Cartel**  
-with [Daniel Chaves](https://sites.google.com/site/dvelosochaves/home) (University of Western Ontario) and [Dimas Fazio](https://sites.google.com/view/dimasfazio) (National University of Singapore)
+with [Daniel Chaves](https://sites.google.com/site/dvelosochaves/home) (Western University) and [Dimas Fazio](https://sites.google.com/view/dimasfazio) (National University of Singapore)
