@@ -41,7 +41,7 @@
     <span>{{ . }}</span>
     {{ end }}
   </div>
-  {{ else }}
+  {{ else if ne $item.Type "publication" }}
     {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
   {{ end }}
 
@@ -64,6 +64,11 @@
     {{ $item.Title }}
     {{ end }}
   </h3>
+
+  {{/* On papers, the coauthors go below the title: "with A and B". */}}
+  {{ if eq $item.Type "publication" }}
+    {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+  {{ end }}
 
   {{ $collapse_id := printf "abstract-%s" $item.File.UniqueID }}
   {{ $conferences_id := printf "conferences-%s" $item.File.UniqueID }}

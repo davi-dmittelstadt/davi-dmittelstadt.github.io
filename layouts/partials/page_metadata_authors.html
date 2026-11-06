@@ -1,0 +1,11 @@
+{{- /* It's my own site, so papers list only the coauthors: "with A", "with A and B", "with A, B, and C". */ -}}
+{{- $me := "Davi Doneda Mittelstadt" -}}
+{{- $coauthors := slice -}}
+{{- range .Params.authors -}}
+  {{- if not (hasPrefix . $me) -}}
+    {{- $coauthors = $coauthors | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $coauthors -}}
+  with {{ if eq (len .) 2 }}{{ delimit . " and " }}{{ else }}{{ delimit . ", " ", and " }}{{ end }}
+{{- end -}}
