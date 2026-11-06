@@ -2,7 +2,7 @@
 title: "Asymmetric Information and Search Frictions in Auto Loans (Job Market Paper)"
 authors:
 - Davi Doneda Mittelstadt (University of Wisconsin-Madison)
-- Bernardus van Doornik (Central Bank of Brazil)
+- Bernardus Van Doornik (Central Bank of Brazil)
 date: "2026-05-24T00:00:00Z"
 doi: ""
 
@@ -20,20 +20,20 @@ publication: ""
 publication_short: ""
 
 abstract: | 
-  When borrowers have private information about their risk, safe borrowers can signal their type by borrowing less. Signaling then interacts with search frictions: since the gain from a lower rate grows with the amount borrowed, borrowing less also reduces the incentive to search for competing offers, softening competition among lenders. We estimate a structural model of endogenous search and loan size choice to quantify how asymmetric information and search frictions jointly distort the auto loan market. Using administrative data from the Central Bank of Brazil, we observe the universe of loan contracts, with detailed information on the loan, the car, the borrower's credit history and employment, and ex-post repayment, and, crucially, the specific set of lenders contacted by each borrower, which we use as a proxy for search behavior. Empirically, we find evidence of asymmetric information, as larger loans are associated with more risk conditional on the information available to lenders at origination. Using changes in the lenders available at each car dealer as instruments, we show that this correlation is mostly driven by adverse selection rather than moral hazard. Furthermore, borrowers who search more are riskier and face higher interest rates. This pattern is concentrated among observably riskier borrowers, indicating that risk incentivizes search. In the model, borrowers have private information over their search costs and their willingness to pay, which is correlated with default risk. Car dealers can supply quotes at no search cost to the borrower, which shapes how much borrowers search on their own. Riskier borrowers search more because their higher reservation rates make each additional quote more likely to lower their rate. On the supply side, lenders with heterogeneous costs compete over rates after observing the loan size demanded by the consumer. We estimate that search is costly, at about 3.5% of the median loan per quote, and that lenders' market power and search frictions each account for about half of the gap between the average rate and the first-best rate. Our estimates show that signaling mitigates adverse selection, as loan size reveals about half of borrowers' private risk, so that adverse selection barely affects average rates. But signaling is costly: low-risk types self-ration, borrowing less than they would if their type were public, which also reduces search and weakens competition among lenders. Simulating a setting in which types were public leads to an increase in market size of 34%, with most of the welfare gain coming from larger loans. This effect is amplified by endogenous search: holding search fixed, the increase in the number of loans would be half as large. Similarly, forbidding lenders to price loans by their size frees borrowers from the need to signal: consumer surplus rises by 21% and, even though lenders lose the information in loan size, their profits rise by 14%. Policies that relax signaling, such as credit scores, therefore also increase competition.
+  When borrowers have private information about their risk, safe borrowers can signal their type by borrowing less. Signaling then interacts with search frictions: since the gain from a lower rate grows with the amount borrowed, borrowing less also reduces the incentive to search for competing offers, softening competition among lenders. Using the Central Bank of Brazil's administrative data on used-car loans, we observe ex-post repayment and the set of lenders contacted by each borrower, which we use as a proxy for search behavior. Empirically, we find evidence of asymmetric information, as larger loans are associated with more risk conditional on the information available to lenders at origination. We also find that borrowers who search more are riskier and face higher interest rates. This pattern is concentrated among observably riskier borrowers, indicating that risk incentivizes search. We develop a structural model in which borrowers choose loan size and search effort given private search costs and a private taste for borrowing that is correlated with default risk. Riskier borrowers search more because their higher reservation rates make each additional quote more likely to lower their rate. Lenders with heterogeneous costs observe the loan size and compete in an auction. We estimate that search is costly, at 3.5% of the median loan per quote. Our estimates show that adverse selection has a small effect on average rates, as loan size reveals about half of borrowers' private risk. But signaling is costly: low-risk types self-ration, borrowing less than they would if their types were public, which also reduces search and weakens competition among lenders. Making borrowers' types observable to lenders would raise total surplus by 22 percent, but by only 1 percent if each borrower's loan size were held fixed.
 
 # Summary. An optional shortened abstract.
-# Left empty so the Job Market Paper section on the homepage shows the full abstract.
 summary: ""
 
-# Shown below the abstract on the homepage (see layouts/partials/li_card.html).
-note: "*Draft available [upon request](mailto:donedamittel@wisc.edu). Public version expected by mid-November 2026, pending clearance by the Central Bank of Brazil.*"
+# Listed behind the Conferences button on the homepage (see layouts/partials/li_card.html).
+conferences: "Canadian Economics Association (CEA) 2026, North American Summer Meeting of the Econometric Society (NASMES) 2026, European Association for Research in Industrial Economics (EARIE) 2026, Federal Reserve Bank of Philadelphia Conference on Auto Lending 2026"
+
 
 featured: true
 
 links:
 
-url_pdf: ''
+url_pdf: 'files/mittelstadt_jmp.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -65,6 +65,3 @@ projects:
 slides: ''
 ---
 
-*Draft available [upon request](mailto:donedamittel@wisc.edu). Public version expected by mid-November 2026, pending clearance by the Central Bank of Brazil.*
-
-**Conferences:** Canadian Economic Association (CEA), North American Summer Meeting of the Econometric Society (NASMES), European Association for Research in Industrial Economics (EARIE)

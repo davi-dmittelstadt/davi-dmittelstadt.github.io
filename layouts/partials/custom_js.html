@@ -1,0 +1,8 @@
+{{/* Search is off, so stop the theme's `/` keyboard shortcut from opening an empty search dialog. */}}
+<script>
+  window.addEventListener('keydown', function (e) {
+    if (e.which === 191) {
+      e.stopPropagation();
+    }
+  }, true);
+</script>

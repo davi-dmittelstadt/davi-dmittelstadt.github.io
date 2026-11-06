@@ -19,11 +19,13 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: Scoring auctions featuring an upfront payment and other dimensions relevant to the seller are common in many settings. Most of the theoretical and empirical literature focuses on the private values framework, applying it especially to procurement auctions in which a measure of quality also determines the winner. We contribute to this literature by estimating scoring auctions under the common value assumption. We analyze Brazilian oil and gas auctions, in which local content features as a bid dimension, and evaluate its impact on government revenue. Change in the auction rules over time provides variation in bidder behavior, as in sales with increased local content requirements, there was a decrease and both revenue and participation. We develop and estimate a structural auction model within the mineral rights framework that includes an entry decision and bids in multiple dimensions, including a bonus and a local content percentage. Our results show that local content requirements increase costs in deep water areas by 14%. Simulating a counterfactual in which bidders are unconstrained, we conclude that these requirements reduced auction revenue in deep-water leases by 65%.
+abstract: Scoring auctions featuring an upfront payment and other dimensions relevant to the seller are common in many settings. Most of the theoretical and empirical literature focuses on the private values framework, applying it especially to procurement auctions in which a measure of quality also determines the winner. We contribute to this literature by estimating scoring auctions under the common value assumption. We analyze Brazilian oil and gas auctions, in which local content features as a bid dimension, and evaluate its impact on government revenue. Change in the auction rules over time provides variation in bidder behavior, as in sales with increased local content requirements, there was a decrease in both revenue and participation. We develop and estimate a structural auction model within the mineral rights framework that includes an entry decision and bids in multiple dimensions, including a bonus and a local content percentage. Our results show that local content requirements increase costs in deep water areas by 14%. Simulating a counterfactual in which bidders are unconstrained, we conclude that these requirements reduced auction revenue in deep-water leases by 65%.
 
 # Summary. An optional shortened abstract.
-summary: |
-  Conferences: Brazilian Econometric Society 2023, Midwest Economics Association 2024, IIOC 2024
+summary: ""
+
+# Listed behind the Conferences button on the homepage (see layouts/partials/li_card.html).
+conferences: "Brazilian Econometric Society (SBE) 2023, Midwest Economics Association (MEA) 2024, International Industrial Organization Conference (IIOC) 2024"
 
 featured: false
 

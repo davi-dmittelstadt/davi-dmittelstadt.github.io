@@ -1,0 +1,22 @@
+// Less space between the homepage sections.
+.home-section {
+  padding: 50px 0;
+}
+
+// Larger buttons on the paper cards: they are the only way to reach the abstracts.
+.card-simple .btn-links .btn-sm {
+  font-size: .8rem;
+  padding: .25rem .6rem;
+}
+
+// Keep the same text size on phones: the theme would scale the "M" font size down to about 14px.
+@media screen and (max-width: 57.99em) {
+  html,
+  .navbar {
+    font-size: 16.17px;
+  }
+
+  .card-simple .btn-links .btn-sm {
+    padding: .4rem .7rem;
+  }
+}

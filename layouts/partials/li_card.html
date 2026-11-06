@@ -9,10 +9,15 @@
   {{ $show_buttons = true }}
 {{ end }}
 
+{{/* The abstract stays collapsed, behind a button next to the PDF, on cards that have buttons. */}}
+{{ $collapse_abstract := and $show_buttons $item.Params.abstract }}
+
 {{/* Get summary. */}}
 {{ $summary := "" }}
 {{ if $item.Params.summary }}
   {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if $collapse_abstract }}
+  {{/* Nothing else to show below the buttons. */}}
 {{ else if .Params.abstract }}
   {{ $summary = .Params.abstract | markdownify | emojify }}
 {{ else if $item.Summary }}
@@ -49,29 +54,60 @@
   </a>
   {{end}}
 
+  {{/* Papers have no page of their own (see config.toml): the title opens the PDF, if there is one. */}}
   <h3 class="article-title mb-1 mt-3">
+    {{ if $item.RelPermalink }}
     <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
+    {{ else if $item.Params.url_pdf }}
+    <a href="{{ $item.Params.url_pdf | relURL }}" target="_blank" rel="noopener">{{ $item.Title }}</a>
+    {{ else }}
+    {{ $item.Title }}
+    {{ end }}
   </h3>
 
+  {{ $collapse_id := printf "abstract-%s" $item.File.UniqueID }}
+  {{ $conferences_id := printf "conferences-%s" $item.File.UniqueID }}
+
+  {{ if $show_buttons }}
+  <div class="btn-links mb-2">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{ if $collapse_abstract }}
+    <button class="btn btn-outline-primary my-1 mr-1 btn-sm" type="button" data-toggle="collapse" data-target="#{{ $collapse_id }}" aria-expanded="false" aria-controls="{{ $collapse_id }}">
+      {{ i18n "abstract" }}
+    </button>
+    {{ end }}
+    {{ if $item.Params.conferences }}
+    <button class="btn btn-outline-primary my-1 mr-1 btn-sm" type="button" data-toggle="collapse" data-target="#{{ $conferences_id }}" aria-expanded="false" aria-controls="{{ $conferences_id }}">
+      Conferences
+    </button>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ if and $show_buttons $item.Params.conferences }}
+  <div id="{{ $conferences_id }}" class="collapse">
+    <div class="article-style">
+      <p>{{ $item.Params.conferences | markdownify | emojify }}</p>
+    </div>
+  </div>
+  {{ end }}
+
+  {{ if $collapse_abstract }}
+  <div id="{{ $collapse_id }}" class="collapse">
+    {{ if $item.RelPermalink }}<a href="{{ $item.RelPermalink }}" class="summary-link">{{ end }}
+      <div class="article-style">
+        <p>{{ $item.Params.abstract | markdownify | emojify }}</p>
+      </div>
+    {{ if $item.RelPermalink }}</a>{{ end }}
+  </div>
+  {{ end }}
+
   {{ with $summary }}
-  <a href="{{ $item.RelPermalink }}" class="summary-link">
+  {{ if $item.RelPermalink }}<a href="{{ $item.RelPermalink }}" class="summary-link">{{ end }}
     <div class="article-style">
       <p>{{.}}</p>
     </div>
-  </a>
-  {{ end }}
-
-  {{/* Optional note below the summary, outside its link (e.g. paper availability). */}}
-  {{ with $item.Params.note }}
-  <div class="article-style">
-    <p>{{ . | markdownify | emojify }}</p>
-  </div>
-  {{ end }}
-
-  {{ if $show_buttons }}
-  <div class="btn-links">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-  </div>
+  {{ if $item.RelPermalink }}</a>{{ end }}
   {{ end }}
 
 </div>
