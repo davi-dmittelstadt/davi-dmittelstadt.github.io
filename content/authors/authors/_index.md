@@ -63,6 +63,6 @@ user_groups:
 
 I am a PhD candidate in Economics at the University of Wisconsin-Madison. My research interests include industrial organization, applied microeconomics, and household finance.
 
-I will be on the 2026-2027 job market. You can find my CV [here](/files/mittelstadt_cv.pdf).
+I am on the 2026-2027 job market. You can find my CV [here](/files/mittelstadt_cv.pdf).
 
 Feel free to contact me at [donedamittel@wisc.edu](mailto:donedamittel@wisc.edu).
